@@ -45,14 +45,14 @@ export default function AddAttribute() {
       attribute.properties.time = { starttime: startTime, endtime: endTime };
       attribute.properties.location = "";
       setAddAttrs([...addAttrs, attribute]);
-      console.log(addAttrs.length);
-      for (let i = 0; i < addAttrs.length; i++) {
-        console.log(addAttrs[i]);
+//       console.log(addAttrs.length);
+//       for (let i = 0; i < addAttrs.length; i++) {
+//         console.log(addAttrs[i]);
     }
     };
     const handleTotButtonClicked = (event) => {
         setAttributes([...attributes, addAttrs]);
-        console.log(attributes);
+//         console.log(attributes);
       };
   return (
     <div>
